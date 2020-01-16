@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch --verbose"
+    "test": "DB_ENV=testing jest --watch"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "jest": "^24.9.0",
+    "knex": "^0.20.8",
+    "sqlite3": "^4.1.1",
     "supertest": "^4.0.2"
   },
   "jest": {
